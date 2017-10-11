@@ -1,0 +1,193 @@
+.bg{background-image:url("black.jpg");
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+ background-position: center;           
+}
+.bg2{background-image:url("lib.jpg");
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;         
+}
+.font{font-family: century gothic;
+font-size: 15pt;
+}
+
+#h1{
+	font-family: century gothic;
+	font-size: 30px;
+	color:#2FCA5E;
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+}
+
+#loginmsg {
+	border-radius: 2px;
+	color: brown;
+	font-family: century gothic;
+	font-size: 12px;
+	padding: 2px 5px;
+	width: 50%;
+	margin:2px;
+	text-align: center;
+	background: antiquewhite;
+	border: 1px solid #CA4646;
+}
+
+
+.loginbox {
+      
+      	background: #eee;
+	color: #2FCA5E;
+	width: 20%;
+	padding: 15px;
+    border: 2px solid #DEDEDE;
+    border-radius: 2px;
+}
+.loginbox input{
+	
+	border-left: 3px solid #2FCA5E;
+	border-right: 1px solid #eee;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	width: 90%;
+	margin:2px;
+	background: transparent;
+}
+
+.loginbox input:hover, .loginbox input:active, .loginbox input:focus{
+	border-left: 5px solid #32B158;
+	border-right: 1px solid #32B158;
+	border-top: 1px solid #32B158;
+	border-bottom: 1px solid #32B158;
+	color: #32B158;
+	transition: all .1s;
+}
+
+input{
+	font-size:15px;
+	padding: 5px;
+	font-family: century gothic;
+	color: #464646;
+}
+
+#button{
+	font-family: century gothic;
+	color: #2FCA5E;
+	border: 2px solid #2FCA5E;
+	background: transparent;
+	width: 50%;
+}
+
+#button:hover, #button:active, #button:focus{
+	/*border-left: 5px solid #32B158;*/
+	text-transform: uppercase; 
+	transition: all .1s;
+}
+
+#position{position:absolute;top:20%;left:39.5%;}
+
+#h1n{
+	font-family: century gothic;
+	font-size: 50px;
+	color:#2FCA5E;
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+}
+
+
+#myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #9acc85;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #9acc85;
+	box-shadow:inset 0px 1px 0px 0px #9acc85;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #74ad5a), color-stop(1, #68a54b));
+	background:-moz-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+	background:-webkit-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+	background:-o-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+	background:-ms-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+	background:linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#74ad5a', endColorstr='#68a54b',GradientType=0);
+	background-color:#74ad5a;
+	border:1px solid #3b6e22;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:century gothic;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+        width: 25%;
+        border-color: black;
+}
+#myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #68a54b), color-stop(1, #74ad5a));
+	background:-moz-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+	background:-webkit-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+	background:-o-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+	background:-ms-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+	background:linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#68a54b', endColorstr='#74ad5a',GradientType=0);
+	background-color:#68a54b;
+}
+#myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 1px;
+    padding: 0px;
+    overflow: hidden;
+    background: url(tape.jpg);
+    font-weight: bold;
+
+    font-family: Palatino;
+   
+}
+
+li {
+    float: left;
+    
+}
+
+li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: black;
+    
+}
+
+
+    
+
+
+
+
+
+table {
+    border-collapse: collapse;
+    font-family: arial;
+    font-size: 15px;
+    width: 52%;
+    table-layout: auto;
+    
+}
+
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even)
+{background-color: lightgrey}
